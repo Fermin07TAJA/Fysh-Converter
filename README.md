@@ -1,27 +1,35 @@
-# Fysh-Converter
+# **Fysh Converter**
 
-INSTALLATION:
-Download and run the exe file. To access it manually, type "FyshConverter" into the app search bar.
+## Install
+&emsp; Run the newest release and then add a shortcut from your install location of the exe file to Windows Start Menu.
 
-To create a shortcut for it, navigate to the folder where you saved it, and create a shortcut to the 'FyshConverter.exe' or 'FastFysh.exe' file (Google "show file extensions" if you do not see them). 
+```
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+```
 
-Drag this shortcut to the desktop, taskbar, or wherever it is convenient.
+## Description
+&emsp; Fysh Converter is a lightweight tool for easy audio and video conversion from (primarily) YouTube and Spotify. It simplifies downloading and converting content from .webp or other non-MP3 formats, with the ability to process one or many links or descriptions at a time asynchronously.
 
-Finally, run it once to create the folders it needs in your 'Downloads' directory.
+## Features:
+- **Platform Selection**: Toggle between YouTube and Spotify sources.
+- **URL Input**: Paste the URL or write the song name of the audio you wish to download.
+- **Directory Selection**: Set a custom download directory or use the default.
+- **Batch Conversion**: Similar input as before but each line is treated as its own selection.
 
 
-CONVERTING With FyshConverter:
-To use this tool, place your video/audio files in C:\Users\YOUR USERNAME HERE\Downloads\FyshConverter\Downloads
-Click on on of the convert options. The converted files should be in the "mp3_songs" or "mp4_videos" folders.
+![Fysh Converter GUI](gui.png)
 
-DOWNLOADING With FyshConverter - Playlists
-Type in the playlist ID of choice into the text file called "playlistID.txt" which is in the FyshConverter folder. All files will appear in the downloads folder of FyshConverter (C:\Users\YOUR USERNAME HERE\Downloads\FyshConverter\Downloads).
 
-DOWNLOADING With FyshConverter - Individual Links
-Type in the links, separated by a new line after each, into the text file called "songs.txt" which is in the FyshConverter folder. All files will appear in the downloads folder of FyshConverter (C:\Users\YOUR USERNAME HERE\Downloads\FyshConverter\Downloads).
+## Instructions:
+1. **Single Conversion**:
+   - Select the platform (e.g., YouTube).
+   - Paste the URL/Description into the **URL** field.
+        - To use a description for YouTube searches toggle "YTS?" to the ON position. Note this is not necessary for Spotify descriptive searches.
+   - Specify a directory in **Place Directory**, or leave it blank to use the default.
+   - Click **Convert to MP3**.
 
-DOWNLOADING FFMPEG With FyshConverter
-If FFMPEG has not already been downloaded then this will fix any errors of type "ffmpeg not recognized"
-
-DOWNLOADING AND CONVERTING With FastFysh (Added 2024-03-17 - Happy St Patricks Day):
-Add single song URL (not a playlist) and an optional output file path. No file path will download to the default FyshConverter path. This combines the download and converting process for individual songs.
+2. **Batch Conversion**:
+   - Toggle **Batch Convert**.
+   - Paste multiple URLs/Descriptions (one per line) into the **Batch URLs** box.
+        - To use a description for YouTube searches toggle "YTS?" to the ON position. Note this is not necessary for Spotify descriptive searches.
+   - Click **Convert Batch**.

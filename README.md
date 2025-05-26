@@ -17,7 +17,7 @@ C:\ProgramData\Microsoft\Windows\Start Menu\Programs
 - **Batch Conversion**: Similar input as before but each line is treated as its own selection.
 
 
-![Fysh Converter GUI](gui.png)
+![Fysh Converter GUI](gui_V10.png)
 
 
 ## Instructions:
